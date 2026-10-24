@@ -36,6 +36,16 @@ public class EmployeeServiceImp {
         return empRepo.addEmpBulk(emplist);
     }
 
+    public String deleteEmpById()
+    {
+        return empRepo.deleteEmpById(200);
+    }
+
+    public String updateEmpById() {
+        return empRepo.updateEmpById(202, "abcd@gmail.com");
+
+    }
+
 
 
 }
