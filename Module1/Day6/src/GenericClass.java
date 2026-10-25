@@ -13,8 +13,8 @@ class Generics<T>{
 
 public class GenericClass {
     public static void main(String[] args) {
-        Generics<Integer> obj1= new Generics<>(100);
-        Generics<String> obj2= new Generics<>("java");
+        Generics<Integer> obj1 = new Generics<>(100);
+        Generics<String> obj2 = new Generics<>("java");
 
         System.out.println(obj1.getData());
         System.out.println(obj2.getData());
